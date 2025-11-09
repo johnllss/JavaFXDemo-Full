@@ -32,4 +32,7 @@ module com.example.javafxdemofull {
 
     opens RadioButtons to javafx.fxml;
     exports RadioButtons;
+
+    opens DatePicker to javafx.fxml;
+    exports DatePicker;
 }
