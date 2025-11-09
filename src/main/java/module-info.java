@@ -10,10 +10,14 @@ module com.example.javafxdemofull {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.desktop;
 
     opens SwitchScenes to javafx.fxml;
     exports SwitchScenes;
 
     opens CommsBetweenControllers to javafx.fxml;
     exports CommsBetweenControllers;
+
+    opens LogoutBtn to javafx.fxml;
+    exports LogoutBtn;
 }
