@@ -20,4 +20,7 @@ module com.example.javafxdemofull {
 
     opens LogoutBtn to javafx.fxml;
     exports LogoutBtn;
+
+    opens ImageView to javafx.fxml;
+    exports ImageView;
 }
