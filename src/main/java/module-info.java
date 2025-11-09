@@ -26,4 +26,7 @@ module com.example.javafxdemofull {
 
     opens TextField to javafx.fxml;
     exports TextField;
+
+    opens CheckBox to javafx.fxml;
+    exports CheckBox;
 }
