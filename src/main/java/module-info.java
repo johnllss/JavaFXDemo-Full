@@ -11,6 +11,9 @@ module com.example.javafxdemofull {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens com.example.javafxdemofull to javafx.fxml;
-    exports com.example.javafxdemofull;
+    opens SwitchScenes to javafx.fxml;
+    exports SwitchScenes;
+
+    opens CommsBetweenControllers to javafx.fxml;
+    exports CommsBetweenControllers;
 }

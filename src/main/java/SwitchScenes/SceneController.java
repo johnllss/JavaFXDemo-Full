@@ -1,4 +1,4 @@
-package com.example.javafxdemofull;
+package SwitchScenes;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
