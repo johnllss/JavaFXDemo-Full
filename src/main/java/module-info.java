@@ -62,4 +62,7 @@ module com.example.javafxdemofull {
 
     opens FlowPane to javafx.fxml;
     exports FlowPane;
+
+    opens KeyEvent to javafx.fxml;
+    exports KeyEvent;
 }
