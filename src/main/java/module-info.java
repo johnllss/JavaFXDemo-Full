@@ -23,4 +23,7 @@ module com.example.javafxdemofull {
 
     opens ImageView to javafx.fxml;
     exports ImageView;
+
+    opens TextField to javafx.fxml;
+    exports TextField;
 }
