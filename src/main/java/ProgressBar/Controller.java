@@ -12,7 +12,6 @@ import java.util.ResourceBundle;
 public class Controller implements Initializable {
     @FXML private Label myLabel;
     @FXML private ProgressBar myProgressBar;
-    @FXML private Label myLabel;
 
     // BigDecimal class gives its user complete control over rounding behavior
     BigDecimal progress = new BigDecimal(String.format("%.2f", 0.0));

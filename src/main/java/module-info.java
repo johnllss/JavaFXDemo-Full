@@ -47,4 +47,7 @@ module com.example.javafxdemofull {
 
     opens ProgressBar to javafx.fxml;
     exports ProgressBar;
+
+    opens Spinner to javafx.fxml;
+    exports Spinner;
 }
