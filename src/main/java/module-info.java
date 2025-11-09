@@ -11,6 +11,7 @@ module com.example.javafxdemofull {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires java.desktop;
+    requires javafx.media;
 
     opens SwitchScenes to javafx.fxml;
     exports SwitchScenes;
@@ -68,4 +69,7 @@ module com.example.javafxdemofull {
 
     opens Animations to javafx.fxml;
     exports Animations;
+
+    opens MediaView to javafx.fxml;
+    exports MediaView;
 }
