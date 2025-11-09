@@ -59,4 +59,7 @@ module com.example.javafxdemofull {
 
     opens MenuBar to javafx.fxml;
     exports MenuBar;
+
+    opens FlowPane to javafx.fxml;
+    exports FlowPane;
 }
