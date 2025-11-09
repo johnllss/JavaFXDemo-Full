@@ -72,4 +72,7 @@ module com.example.javafxdemofull {
 
     opens MediaView to javafx.fxml;
     exports MediaView;
+
+    opens WebView to javafx.fxml;
+    exports WebView;
 }
