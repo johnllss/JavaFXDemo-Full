@@ -38,4 +38,7 @@ module com.example.javafxdemofull {
 
     opens ColorPicker to javafx.fxml;
     exports ColorPicker;
+
+    opens ChoiceBox to javafx.fxml;
+    exports ChoiceBox;
 }
