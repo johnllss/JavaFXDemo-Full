@@ -35,4 +35,7 @@ module com.example.javafxdemofull {
 
     opens DatePicker to javafx.fxml;
     exports DatePicker;
+
+    opens ColorPicker to javafx.fxml;
+    exports ColorPicker;
 }
