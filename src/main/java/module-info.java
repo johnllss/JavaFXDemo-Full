@@ -50,4 +50,7 @@ module com.example.javafxdemofull {
 
     opens Spinner to javafx.fxml;
     exports Spinner;
+
+    opens ListView to javafx.fxml;
+    exports ListView;
 }
