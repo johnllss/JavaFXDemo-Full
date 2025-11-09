@@ -44,4 +44,7 @@ module com.example.javafxdemofull {
 
     opens Slider to javafx.fxml;
     exports Slider;
+
+    opens ProgressBar to javafx.fxml;
+    exports ProgressBar;
 }
