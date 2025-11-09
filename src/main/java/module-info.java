@@ -29,4 +29,7 @@ module com.example.javafxdemofull {
 
     opens CheckBox to javafx.fxml;
     exports CheckBox;
+
+    opens RadioButtons to javafx.fxml;
+    exports RadioButtons;
 }
