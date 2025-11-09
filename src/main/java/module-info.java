@@ -53,4 +53,7 @@ module com.example.javafxdemofull {
 
     opens ListView to javafx.fxml;
     exports ListView;
+
+    opens TreeView to javafx.fxml;
+    exports TreeView;
 }
